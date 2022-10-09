@@ -1,108 +1,124 @@
-*{
-	padding:0px;
-	margin:0px;
-	font-family: Century Gothic;
-}
+/*CONFIGURACIÓN GENERAL DEL HTML*/
+	*{
+		padding:0px;
+		margin:0px;
+		font-family: Century Gothic;
+	}
 
-body{
-	background-color:#F7F6F4;
-}
+	body{
+		background-color:#F7F6F4;
+	}
 
-.home{
-	display:flex;
-	flex-wrap:wrap;
-}
+	.home{
+		display:flex;
+		flex-wrap:wrap;
+	}
 
-.in-flex{
-	flex:1;
-	min-width:250px;
-}
+/*CONFIGURACIÓN DEL CONTENEDOR*/
+	.in-flex{
+		flex:1;
+		min-width:250px;
+	}
 
-#contenedor p{
-	font-family:Lucida Bright;
-	font-style:bolder;
-	font-size:1.2vw;
-	margin-left:2vw;
-	text-align:justify;
-}
+	.in-flex div{
+		padding:25px;
+		height:320px;
+		margin:20px;
+	}
 
-.in-flex:first-child{
-	flex:2;
-	padding:20px;
-	height:750px;
-	background-color:#F2D8E8;
-	margin:25px;
-	margin-bottom:0px;
-}
+	h1{
+		font-size:2vw;
+	}
 
+/*CONTENEDOR PRINCIPAL*/
+	.in-flex:first-child{
+		flex:2;
+		padding:20px;
+		height:750px;
+		background-color:#F2D8E8;
+		margin:20px;
+		margin-bottom:0px;
+	}
+	/*Informacion general*/
 
-
-#divLateralInferior{
-	position:relative;
-}
-
-#divLateralInferior p{
-	margin-left:8.5vmin;
-	font-family: monospace;
-}
-
-#divLateralInferior img{
-	width:4vmin;
-	margin-left:1vw;
-	position:absolute;
-}
-
-
-
-#divLateralSuperior{
-	position:relative;
-}
-
-#divLateralSuperior p{
-	margin-left:6vmin;
-	font-family: monospace;
-}
-
-#divLateralSuperior img{
-	width:4vmin;
-	margin-left:1vw;
-	position:absolute;
-}
+		#contenedor img{
+			position:absolute;
+			min-width:5vw;
+			max-width:10vw;
+			margin-left:5vw;
+			height:17vmin;
+			border-width:3px;
+			border-color:black;
+			border-style:solid;
+		}
 
 
+		#nombre{
+			margin-top:3vw;
 
-#cuadrado{
-	width:12%;
-	height:10%;
-	border-width:3px;
-	border-color:black;
-	border-style:solid;
-	background-color:green;
-}
+			font-family: monospace;
+			margin-left:45vmin;
+			width:30vw;
+			position:relative;
+		}
 
-h1{
-	font-size:2vw;
-}
-#nombre{
-	font-family: monospace;
-	margin-left:30vmin;
-	width:30vw;
-}
+		#profesion{
+			margin-top:3vw;
+			font-family: monospace;
+			margin-left:58vmin;
+			width:12vw;
+			margin-top:1vw;
+			font-size:1vw;
+			position:relative;
+		}
+	/*Descripcion sobre mi*/
 
-#profesion{
-	font-family: monospace;
-	margin-left:43vmin;
-	width:12vw;
-	margin-top:1vw;
-	font-size:1vw;
-}
+		#contenedor p{
+			margin-top:3vw;
+			font-family:Lucida Bright;
+			font-style:bolder;
+			max-width:auto;
+			min-width:auto;
+			font-size:1.3vw;
+			margin-left:2vw;
+			text-align:justify;
+		}
 
-.in-flex div{
-	padding:25px;
-	height:320px;
-	margin:20px;
-}
 
-.laterales{
-	background-color:#A93061;
-}
+
+/*CONFIGURACIÓN DE LATERALES*/
+	.laterales{
+		background-color:#A93061;
+	}
+	
+	/*Lateral superior*/
+		#divLateralSuperior{
+			position:relative;
+		}
+
+		#divLateralSuperior p{
+			margin-left:6vmin;
+			font-family: monospace;
+		}
+
+		#divLateralSuperior img{
+			width:4vmin;
+			margin-left:1vw;
+			position:absolute;
+		}
+	
+	/*Lateral Inferior*/
+		#divLateralInferior{
+			position:relative;
+		}
+
+		#divLateralInferior p{
+			margin-left:8.5vmin;
+			font-family: monospace;
+		}
+
+		#divLateralInferior img{
+			width:4vmin;
+			margin-left:1vw;
+			position:absolute;
+		}
