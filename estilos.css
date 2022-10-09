@@ -46,7 +46,8 @@
 			min-width:5vw;
 			max-width:10vw;
 			margin-left:5vw;
-			height:17vmin;
+			max-height:10vw;
+			min-height:4vw;
 			border-width:3px;
 			border-color:black;
 			border-style:solid;
@@ -55,9 +56,8 @@
 
 		#nombre{
 			margin-top:3vw;
-
 			font-family: monospace;
-			margin-left:45vmin;
+			margin-left:40vmin;
 			width:30vw;
 			position:relative;
 		}
@@ -65,7 +65,7 @@
 		#profesion{
 			margin-top:3vw;
 			font-family: monospace;
-			margin-left:58vmin;
+			margin-left:53vmin;
 			width:12vw;
 			margin-top:1vw;
 			font-size:1vw;
