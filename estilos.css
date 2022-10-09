@@ -18,14 +18,58 @@ body{
 	min-width:250px;
 }
 
+#contenedor p{
+	font-family:Lucida Bright;
+	font-style:bolder;
+	font-size:1.2vw;
+	margin-left:2vw;
+	text-align:justify;
+}
+
 .in-flex:first-child{
 	flex:2;
-	padding:25px;
+	padding:20px;
 	height:750px;
 	background-color:#F2D8E8;
 	margin:25px;
 	margin-bottom:0px;
 }
+
+
+
+#divLateralInferior{
+	position:relative;
+}
+
+#divLateralInferior p{
+	margin-left:8.5vmin;
+	font-family: monospace;
+}
+
+#divLateralInferior img{
+	width:4vmin;
+	margin-left:1vw;
+	position:absolute;
+}
+
+
+
+#divLateralSuperior{
+	position:relative;
+}
+
+#divLateralSuperior p{
+	margin-left:6vmin;
+	font-family: monospace;
+}
+
+#divLateralSuperior img{
+	width:4vmin;
+	margin-left:1vw;
+	position:absolute;
+}
+
+
 
 #cuadrado{
 	width:12%;
@@ -43,14 +87,12 @@ h1{
 	font-family: monospace;
 	margin-left:30vmin;
 	width:30vw;
-	background-color:blue;
 }
 
 #profesion{
 	font-family: monospace;
 	margin-left:43vmin;
 	width:12vw;
-	background-color:blue;
 	margin-top:1vw;
 	font-size:1vw;
 }
