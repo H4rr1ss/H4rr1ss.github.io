@@ -98,13 +98,13 @@
 		}
 
 		#divLateralSuperior p{
-			margin-left:6vmin;
+			margin-left:10vmin;
 			font-family: monospace;
 		}
 
 		#divLateralSuperior img{
 			width:4vmin;
-			margin-left:1vw;
+			margin-left:3vw;
 			position:absolute;
 		}
 	
