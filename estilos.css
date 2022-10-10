@@ -17,7 +17,7 @@
 /*CONFIGURACIÓN DEL CONTENEDOR*/
 	.in-flex{
 		flex:1;
-		min-width:250px;
+		min-width:260px;
 	}
 
 	.in-flex div{
@@ -34,14 +34,17 @@
 	.in-flex:first-child{
 		flex:2;
 		padding:20px;
-		height:870px;
+		height:780px;
 		background-color:#F2D8E8;
 		margin:20px;
-		margin-bottom:15px;
+		margin-bottom:10px;
 		
 	}
 	/*Informacion general*/
-
+		#contenedor{
+			position:relative;
+		}
+		
 		#contenedor img{
 			position:absolute;
 			min-width:5vw;
@@ -75,17 +78,21 @@
 	/*Descripcion sobre mi*/
 
 		#contenedor p{
-			margin-top:3vw;
 			font-family:Lucida Bright;
 			font-style:bolder;
-			max-width:auto;
-			min-width:auto;
+			text-align:justify;
+			margin-left:2vw;
+		}
+
+/*
+margin-top:3vw;
+			font-family:Lucida Bright;
+			font-style:bolder;
+
 			font-size:1.4vw;
 			margin-left:2vw;
 			text-align:justify;
-		}
-
-
+*/
 
 /*CONFIGURACIÓN DE LATERALES*/
 	.laterales{
