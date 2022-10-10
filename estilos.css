@@ -34,10 +34,11 @@
 	.in-flex:first-child{
 		flex:2;
 		padding:20px;
-		height:750px;
+		height:870px;
 		background-color:#F2D8E8;
 		margin:20px;
-		margin-bottom:0px;
+		margin-bottom:15px;
+		
 	}
 	/*Informacion general*/
 
@@ -79,7 +80,7 @@
 			font-style:bolder;
 			max-width:auto;
 			min-width:auto;
-			font-size:1.3vw;
+			font-size:1.4vw;
 			margin-left:2vw;
 			text-align:justify;
 		}
